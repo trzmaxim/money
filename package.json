@@ -1,0 +1,35 @@
+{
+  "name": "@trzmaxim/money",
+  "version": "0.0.1",
+  "description": "A small library for working with monetary values",
+  "author": "Maksim Gerasimov <treizeger@gmail.com> (http://github.com/trzmaxim)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trzmaxim/money.git"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "npx jest && npx tsc --noEmit"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "big.js": "^6.1.1",
+    "toformat": "^2.0.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.102",
+    "@swc/jest": "^0.2.5",
+    "@types/big.js": "^6.1.2",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "rollup": "^1.29.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.4"
+  }
+}
