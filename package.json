@@ -6,8 +6,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trzmaxim/money.git"
+    "url": "git+https://github.com/trzmaxim/money.git"
   },
+  "bugs": {
+    "url": "https://github.com/trzmaxim/money/issues"
+  },
+  "homepage": "https://github.com/trzmaxim/money#readme",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
